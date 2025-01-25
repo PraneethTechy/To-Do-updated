@@ -1,0 +1,415 @@
+.parent{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-container{
+    position: relative;
+    z-index: 1;
+    top: 55px;
+    left: 20px;
+    background-color:rgb(219, 254, 224);
+    height: 450px;
+    width: 280px;
+    margin: 30px;
+    border-radius: 10px;
+    margin-top: 110px;
+    overflow: hidden;
+    margin-right: 0px;
+
+ }
+ .menu-items{
+    margin: 100px 15px 20px 17px ;
+    background-color: white;
+    height: 200px;
+    width: 240px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+ }
+ ul{
+    list-style: none;
+
+ }
+ li{
+    margin: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+ }
+ 
+
+  .dropdown-menu {
+    list-style: none; /* Removes default bullets */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-item {
+    display: flex; /* Aligns logo and text horizontally */
+    align-items: center; /* Centers logo and text vertically */
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer; /* Pointer on hover */
+  }
+  
+  .dropdown-item:hover {
+    background-color: #baf8bb;
+    
+    /* Highlight on hover */
+  }
+  
+  .dropdown-item img {
+    width: 16px; /* Adjust logo width */
+    height: 16px; /* Adjust logo height */
+    margin-right: 10px; /* Space between logo and text */
+  }
+  
+  .dropdown-item span {
+    font-size: 14px;
+    color: #333; /* Text color */
+  }
+  
+  .dropdown-item a {
+    text-decoration: none; /* Removes underline for links */
+    color: inherit; /* Inherits color from parent */
+  }
+
+  
+
+ 
+  .add-list-item {
+    display: flex; 
+    align-items: center; 
+    
+    margin: 10px 15px 10px 18px; 
+    border-radius: 10px;
+    background-color: white; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+
+    height: 60px;
+    width: 240px; 
+    
+}
+
+.ad-list-item {
+    display: flex; /* Aligns logo and text horizontally */
+    align-items: center; /* Centers logo and text vertically */
+    
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer; /* Pointer on hover */
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    
+}
+
+.ad-list-item:hover {
+    background-color: #d9ffd9; 
+    
+}
+
+.add-list-item img {
+    width: 18px; /* Icon width */
+    height: 18px; /* Icon height */
+    margin-right: 10px; /* Space between logo and text */
+}
+
+.ad-list-item span {
+    font-size: 15px;
+    color: #333; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+   
+
+
+
+
+
+.addtask{
+    position: relative;
+    height: 100px;
+    width: 900px;
+    background-color: #c7ffc8;
+    top: 50px;
+    left: 50px;
+    border-radius: 10px;
+}
+.btn{
+    display: block;
+    position:relative;
+    padding: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(0, 11, 0);
+    background-color: #94fb94;
+    border-radius: 11px; 
+    font-weight: bold; 
+    border: none;
+    margin-left: 805px;
+    bottom: 20px;
+    right: 20px;
+    
+  }
+  .addtaskinput{
+
+    border: none;
+    position: relative;
+    top: 15px;
+    width: 400px;
+    height: 10px;
+    background-color: #c7ffc8;
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px 0px 10px 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  }
+        
+
+
+
+
+
+
+
+
+
+
+
+  .task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Stack tasks vertically */
+    gap: 10px; /* Add space between tasks */
+  }
+  
+  .task-list li {
+    background: #c7ffc8; /* Light green background */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+    transition: background 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .task-list li:hover {
+    background: #b8fcb8; /* Slightly darker green on hover */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+    cursor: pointer; /* Indicate interactivity */
+  }
+  
+  .textooo {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    color: #333; /* Neutral text color for readability */
+    flex-grow: 1; /* Allow text to take available space */
+  }
+  
+  .delete-btn {
+    background-color: #35ec35; /* Green background for the button */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333; /* Red background on hover */
+    transform: scale(1.1); /* Slightly enlarge the button on hover */
+  }
+  
+  .task-checkbox {
+    margin-right: 10px; /* Space between the checkbox and the task text */
+    transform: scale(1.2); /* Slightly larger checkbox */
+    cursor: pointer; /* Show pointer on hover */
+    accent-color: #35ec35; /* Green accent for the checkbox */
+  }
+  
+  .delete-icon {
+    height: 15px;
+    width: 15px;
+    vertical-align: middle; /* Align icon to the middle */
+    pointer-events: none; /* Prevent interaction with the icon */
+  }
+  
+
+
+
+
+  
+
+.image-div{
+    position: absolute;
+    z-index: 2;
+    left: 125px;
+    top: 110px;
+    
+}
+
+  .img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid rgb(86, 234, 135);
+  }
+
+
+
+
+
+
+  
+.title{
+    display: flex;
+    position: absolute;
+    left: 80px;
+    
+    color:darkgreen;
+    font-family:'Courier New', Courier, monospace;
+}
+ 
+  .titleimg{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    right: 10px;
+    top: 20px;
+  }
+  .textinlogo{
+    position: relative;
+    left: 13px;
+    top: -2px;
+    font-size: 30px;
+    font-weight: 50px;
+  }
+    
+
+
+  .completed {
+    margin-top: 20px; /* Reduced margin for better spacing */
+    list-style: none;
+    padding: 0;
+  }
+  
+  .ct-title {
+    background-color: #d3fed4;
+    padding: 10px 15px; /* Adjusted padding for consistency */
+    color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: bold; /* Highlight the title */
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px; /* Add spacing below the title */
+  }
+  
+  #completedTasks {
+    background: #f0fff0; /* Softer green for a cleaner look */
+    padding: 10px;
+    margin: 0;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    min-height: 50px; /* Ensure there's space even when empty */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 10px; /* Add spacing between completed tasks */
+  }
+  
+  /* Styling for individual completed tasks */
+  #completedTasks li {
+    background: #e8ffe8;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Hover effect for completed tasks */
+  #completedTasks li:hover {
+    background: #d8ffd8;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  #completedTasks .delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  #completedTasks .delete-btn img {
+    width: 18px;
+    height: 18px;
+  }
+  
+  #taskList {
+    list-style: none;
+    background-color: #f0fff0;
+    border: 1px solid #ddd;
+
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  /* Styling for individual tasks in the main task list */
+  #taskList li {
+    background: #e8ffe8;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  #taskList li:hover {
+    background: #f1f1f1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .task-checkbox {
+    margin-right: 10px;
+  }
+  
+  .delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .delete-btn img {
+    width: 18px;
+    height: 18px;
+  }
+  
+
+ 
+
+
+  
